@@ -1,0 +1,22 @@
+# =============== DOWNLOAD TORCH WITH CUDA 12.1 SUPPORT ===============
+# --extra-index-url https://download.pytorch.org/whl/cu121
+# torch==2.2.2+cu121
+# torchvision==0.17.2+cu121
+# torchaudio==2.2.2+cu121
+
+# ======================= ID YOU DONT HAVE CUDA OR ANY OTHER GPU =======================
+torch==2.2.2
+
+# ================= OTHER DEPENDENCIES =================
+transformers==4.40.2
+datasets==2.19.1
+torch==2.2.2
+accelerate==0.30.1
+sentencepiece==0.2.0
+fsspec==2024.3.1
+huggingface_hub==0.22.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+pandas==2.2.2
+numpy==1.26.4
