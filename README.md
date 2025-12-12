@@ -68,7 +68,7 @@ pip install -r requirements.txt
 ├── train_electra.py          # Main training script
 ├── requirements.txt          # Python dependencies
 ├── electra_model_local/      # Saved model directory (after training)
-├── data/                     # Dataset directory (add your data here)
+├── train.csv                 # Dataset directory (add your data here)
 └── README.md                 # Project documentation
 ```
 
